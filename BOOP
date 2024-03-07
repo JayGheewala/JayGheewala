@@ -1,0 +1,60 @@
+<html>
+<head>
+<title> Practical 4</title>
+</head>
+<body>
+<h1 align = "center"> HTML table design with colspan and rowspan </h1>
+<table border="2px" align="center">
+<thead>
+<tr>
+<th>Roll no.</th>
+<th>name</th>
+<th colspan="2">Occupation</th>
+<th>Number</th>
+</tr>
+</thead>
+<tr>
+<td>1231</td>
+<td>Roy</td>
+<td>Teacher</td>
+<td>Student</td>
+<td>9025641654</td>
+</tr>
+
+<tr>
+<td>1232</td>
+<td>Preet</td>
+<td>Game Developer</td>
+<td>Student</td>
+<td>8055498415</td>
+</tr>
+<tr>
+<td rowspan ="3">1233</td>
+
+<td rowspan ="3">Divya</td>
+<td rowspan ="3">Java developer</td>
+<td rowspan ="3">Student</td>
+<td>9752142711</td>
+</tr>
+<tr>
+<td>9584146494</td>
+</tr>
+<tr>
+<td>9875641203</td>
+</tr>
+<tr>
+<td>1234</td>
+<td>Jay</td>
+<td>Web developer</td>
+<td>Student</td>
+<td>9658945671</td>
+</tr>
+<tr>
+<td>1235</td>
+<td>Karan</td>
+<td>Doctor </td>
+<td>Student</td>
+<td>8965918299</td>
+</tr>
+</body>
+</html>
